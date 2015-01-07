@@ -1,0 +1,228 @@
+/* CSS Document */
+html, body{
+	
+	
+}
+
+
+
+body{
+	background-color: #FFF;
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+
+.center-box {
+	background-color: rgba(252, 252, 252, 0.89);
+	margin-top: 100px;
+	width: 300px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 50px;
+}
+#main {
+	
+	background:#FFF;
+	padding: 10px;
+	margin: 0;
+	/*width: 100%;*/
+	margin-top: 50px;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+#footer {
+	background-color: rgba(203, 234, 255, 0.9);
+	position: fixed;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	border-top: 1px solid #ABABAB;
+}
+
+
+#footer span {
+	line-height: 40px;	
+	
+}
+
+
+#footer span a {
+	color: #424242;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-weight: bold;
+	
+	-webkit-transition: color 0.5s;
+    -moz-transition:    color 0.5s;
+    -ms-transition:     color 0.5s;
+    -o-transition:      color 0.5s;
+    transition:         color 0.5s;
+	
+}
+
+
+
+#footer span a:hover {
+	color: #181818;
+	
+}
+
+
+#footer_links_left {
+	float: left;	
+}
+
+#footer_links_right {
+	float: right;
+}
+
+
+input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #303030;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #F00;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #F00;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #F00;
+}
+
+.form_title_h2 {
+	color: rgb(36, 112, 187);
+	font-size: 32px;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-shadow: 0 0 10px #FFF;	
+}
+
+.form_title_h3 {
+	color: rgb(20, 57, 99);
+	font-size: 14px;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-shadow: 0 0 10px #FFF;	
+}
+
+#loader {
+	height: 36px;
+	width: 36px;
+	vertical-align: bottom;
+	background-image: url(../images/ajax_loader_gray_512.gif);
+	background-size: contain;
+	margin: auto;
+}
+
+#back_to_index {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+	border-radius: 20px;
+	background-color: rgba(10,10,10,0.3);
+	background-image: url(../images/cross.png);
+	background-position: center;
+	background-size: contain;
+	
+	-webkit-transition: width 0.5s, height 0.5s, top 0.5s, right 0.5s, background-color 0.5s;
+    -moz-transition:    width 0.5s, height 0.5s, top 0.5s, right 0.5s, background-color 0.5s;
+    -ms-transition:     width 0.5s, height 0.5s, top 0.5s, right 0.5s, background-color 0.5s;
+    -o-transition:      width 0.5s, height 0.5s, top 0.5s, right 0.5s, background-color 0.5s;
+    transition:         width 0.5s, height 0.5s, top 0.5s, right 0.5s, background-color 0.5s;
+	
+	cursor: pointer;
+}
+
+#back_to_index:hover {
+	width: 32px;
+	height: 32px;
+	top: 9px;
+	right: 9px;
+	background-color: rgba(0,0,0,1);
+	overflow: hidden;
+}
+
+@-webkit-keyframes regboxok {
+	0%   {background: rgba(104, 180, 44, 0.95);}
+	50%  {background: rgba(65, 126, 18, 0.91);}
+	100% {background: rgba(104, 180, 44, 0.95);}
+}
+@keyframes regboxok {
+	0%   {background: rgba(104, 180, 44, 0.95);}
+	50%  {background: rgba(65, 126, 18, 0.91);}
+	100% {background: rgba(104, 180, 44, 0.95);}
+}
+
+
+@-webkit-keyframes regboxnotok {
+	0%   {background: rgba(179, 0, 0, 0.95);}
+	50%  {background: rgba(253, 0, 0, 0.86);}
+	100% {background: rgba(179, 0, 0, 0.95);}
+}
+@keyframes regboxnotok {
+	0%   {background: rgba(179, 0, 0, 0.95);}
+	50%  {background: rgba(253, 0, 0, 0.86);}
+	100% {background: rgba(179, 0, 0, 0.95);}
+}
+
+#infoBoxRegOk {
+	position: absolute;
+	width: 450px;
+	padding: 30px;
+	background-color: rgba(104, 180, 44, 0.95);
+	animation: regboxok 3s infinite;
+	-webkit-animation:regboxok 3s infinite;
+	margin-left: -255px;
+	left: 50%;
+	top: 100px;
+	box-shadow: 5px 5px 20px rgb(36,36,36);
+	border-radius: 5px;
+}
+
+#infoBoxRegNotOk {
+	position: absolute;
+	width: 450px;
+	padding: 30px;
+	background-color: rgba(104, 180, 44, 0.95);
+	animation: regboxnotok 3s infinite;
+	-webkit-animation:regboxnotok 3s infinite;
+	margin-left: -255px;
+	left: 50%;
+	top: 100px;
+	box-shadow: 5px 5px 20px rgb(36,36,36);
+	border-radius: 5px;
+}
+
+
+
+
+#infoBoxRegOk p, #infoBoxRegNotOk p  {
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}
+
+.center_container {
+	margin: 60px;
+	padding: 50px;
+	border-radius: 20px;	
+}
+
+.center_container h2
+{
+	color: rgb(0, 56, 105);
+	font-size: 24px;
+}
+
+.center_container p {
+	color:	rgb(0,0,0);
+	font-size: 15px;
+}

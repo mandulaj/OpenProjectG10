@@ -1,0 +1,79 @@
+/* CSS Document */
+#signup-button {
+	
+	background-color:#AE8FE9;
+	width: 125px;
+	border-radius: 5px;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 10px;
+	text-align:center;
+	color:#FFF;
+	font-size: 29px;
+	box-shadow: 0px 2px 10px #C0C0C0;
+
+    -webkit-transition: background-color 0.5s;
+    -moz-transition:    background-color 0.5s;
+    -ms-transition:     background-color 0.5s;
+    -o-transition:      background-color 0.5s;
+    transition:         background-color 0.5s;
+	cursor: pointer;
+	
+}
+
+#signup-button:hover {
+	background-color:#6C50C0;
+}
+
+#or {
+	text-align:center;
+	font-weight:bold;
+	font-size: 16px;
+	margin: 5px;		
+}
+#lost-pass{
+	font-size:11px;
+	color: #3E8CE3;
+	color: rgb(168, 227, 255);
+}
+
+.box-heading{
+	color: 35A5FF;
+	text-shadow: 0px 0px 10px #D5D5D5;	
+}
+
+@-webkit-keyframes first {
+	0%   {background: rgba(197, 0, 0, 0.8);}
+	50%  {background: rgba(197, 0, 0, 0.6);}
+	100% {background: rgba(197, 0, 0, 0.8);}
+}
+@keyframes first {
+	0%   {background: rgba(197, 0, 0, 0.8);}
+	50%  {background: rgba(197, 0, 0, 0.6);}
+	100% {background: rgba(197, 0, 0, 0.8);}
+}
+
+#error {
+	display: none;
+	
+	background: rgba(197, 0, 0, 0.78);
+	animation: first 2s infinite;
+	-webkit-animation:first 2s infinite;
+	border-radius: 5px;
+	color: #FFF;
+	padding: 5px;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 19px;
+	margin-bottom: 4px;
+	margin-top: 5px;
+	text-align: center;
+	box-shadow: 2px 2px 10px #C0C0C0;
+}
+
+.center-box {
+	padding: 30px;
+	border-radius: 10px;	
+}
+

@@ -1,0 +1,116 @@
+﻿
+
+.main_content{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;	
+	
+}
+
+.main_content h2 {
+	color: #168FD1;
+	font-weight: bold;
+	font-size: 25px;
+	
+}
+
+.main_content h3 {
+	color: #168FD1;
+	font-weight: bold;
+	font-size: 18px;
+	
+}
+
+
+.main_content p {
+	font-size: 17px;
+}
+
+.main_content em {
+	font-style: italic;
+	border-bottom: dotted thin #ABABAB;
+}
+
+.main_content b {
+	font-weight: bold;
+}
+
+.main_content a {
+	color: #3E8CE3;
+	
+}
+
+.main_content a:hover {
+	color: #113F71;
+	
+}
+
+#chartable{
+	width: 600px; 
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#chartable thead {
+	background-color: #1C67BB;	
+}
+
+#chartable thead th{
+	padding: 10px;
+	color: #FFF;
+	
+}
+
+#chartable tbody {
+	background-color: #B5D3F4;
+}
+
+#chartable tbody td {
+	padding: 10px;
+}
+
+#passwordGen {
+	border: 1px solid #D5D5D5;
+	padding: 10px;
+	margin: auto;
+	margin-bottom: 10px;
+	width: 600px;
+}
+
+label {
+	display: block;
+}
+input {
+	display: block;
+	float: left;
+}
+
+#number {
+	
+	float: none;
+}
+
+#button {
+	clear: both;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#lab_numb {
+	float: left;
+	margin-top: 3px;
+	
+}
+
+#lab_res {
+	float: left;
+	margin-top: 3px;
+	clear: both;	
+}
+
+
+#result{
+	margin-left: 5px;
+	width: 400px;
+}

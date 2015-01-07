@@ -1,0 +1,126 @@
+/* CSS Document */
+
+
+
+.nav-bar {
+	position: fixed;
+	background-color:#FFF;
+	box-shadow: 0px -1px 30px #000;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	top: 0;
+	left: 0;
+}
+
+.nav-bar ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+.nav-bar a{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+.nav-bar ul#menu li {
+	float:left;
+	text-align: center;
+	padding: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+	
+}
+
+.nav-bar ul#menu li a {
+	display: block;
+}
+
+
+#sellected {
+	background:#1F76D6;
+}
+
+.nav-bar ul#menu li:hover {
+	background: #76ADEB;
+	color: #FFF;		
+}
+
+
+
+#name-box {
+	float: right;
+	cursor: pointer;
+	margin-top: 15px;
+}
+
+#name-box span{
+	text-decoration: underline;
+	color: black;
+	font-weight: bold;
+	
+}
+
+#porfilepic{
+	margin-left: 5px;
+	margin-right: 10px;
+	vertical-align:middle;
+}
+
+.top-bar-submenu {
+	display:none;
+	position: absolute;
+	width: 250px;
+	height: 150px;
+	padding: 20px;
+	top: 61px;
+	right: 10px;
+	border: 1px solid #D5D5D5;
+	box-shadow: 2px 2px 10px #818181;
+	z-index: 20;
+	background: #FFF;
+}
+
+#separator {
+	margin-top: 0px;
+}
+
+#page_loader {
+	position: absolute;	
+	width: 60px;
+	height: 60px;
+	left: 50%;
+	margin-left: -30px;
+	top: 50%;
+	margin-top: -30px;
+	display: none;
+}
+
+#page_loader img {
+	width: 60px;
+	height: 60px;
+}
+
+
+.sub_div {
+	background-color: #7BC6D2;
+	width: 45.5%;
+	height: 500px;
+	padding: 2%;
+	border-radius: 9px;
+	box-shadow: 5px 5px 15px #666666;
+}
+
+
+#main_agenda {
+	float: left;
+	
+}
+
+#main_todos {
+	float: right;
+}
